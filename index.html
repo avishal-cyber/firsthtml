@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Vanguard Account Dashboard</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body>
+    <header>
+        <div class="max-width-container headerdiv">
+            <div class="left-wrapper">
+                <p>Resources</p>
+                <p>Need Assistance?</p>
+                <p>Site Tour</p>
+            </div>
+
+            <div class="right-wrapper">
+                <svg viewBox="0 0 16 16" class="bi bi-envelope-fill" fill="currentColor"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd"
+                        d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555zM0 4.697v7.104l5.803-3.558L0 4.697zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757zm3.436-.586L16 11.801V4.697l-5.803 3.546z" />
+                </svg>
+                <div class="dropdown">
+                    <p class="dropbtn">John Carson Eco Fund - A019284 <button class="dadropbtn"> <svg
+                                class="dropdownarr" viewBox="0 0 16 16" class="bi bi-caret-down-fill"
+                                fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M7.247 11.14L2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
+                            </svg></button></p>
+                    <div class="dropdown-content">
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                    </div>
+                </div>
+                <p>Logout</p>
+            </div>
+
+
+
+        </div>
+    </header>
+
+    <nav>
+        <div id="navdiv" class="max-width-container">
+            <img src="vcep-logo/vcep-logo.png" class="logo">
+            <div id="navcontent">
+                <p>ACCOUNT SUMMARY</p>
+                <p>GRANTS</p>
+                <p>CONTRIBUTIONS</p>
+                <p>INVESTMENTS</p>
+                <p>REPORT</p>
+                <p>PORTFOLIO</p>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <section class="banner">
+        <div id="bannerdiv" class="max-width-container">
+            <p id="Home-Account-overv">Home > Account Overview</p>
+            <h1 id="Account-Overview">Account Overview</h1>
+            <p id="John-Carson-Eco-Fund">John Carson Eco Fund - A019284</p>
+
+
+            <div class="alerting">
+                <svg viewBox="0 0 16 16" class="bi bi-exclamation-triangle" fill="currentColor"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd"
+                        d="M7.938 2.016a.146.146 0 0 0-.054.057L1.027 13.74a.176.176 0 0 0-.002.183c.016.03.037.05.054.06.015.01.034.017.066.017h13.713a.12.12 0 0 0 .066-.017.163.163 0 0 0 .055-.06.176.176 0 0 0-.003-.183L8.12 2.073a.146.146 0 0 0-.054-.057A.13.13 0 0 0 8.002 2a.13.13 0 0 0-.064.016zm1.044-.45a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566z" />
+                    <path
+                        d="M7.002 12a1 1 0 1 1 2 0 1 1 0 0 1-2 0zM7.1 5.995a.905.905 0 1 1 1.8 0l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995z" />
+                </svg>
+                <p id="alerttext">
+                    There is a Pending Contribution on your account that needs attention
+                </p>
+                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <main>
+        <div class="max-width-container">
+            <div class="onerectangle">
+                <div>
+                    <div class="card topone">
+                        <div class="cardtext">Current Balance <svg class="infoicon" viewBox="0 0 16 16"
+                                class="bi bi-info-circle-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd"
+                                    d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412l-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM8 5.5a1 1 0 1 0 0-2 1 1 0 0 0 0 2z" />
+                            </svg></div>
+                        <h2 class="balanceamt">$120,000</h2>
+                    </div>
+
+                    <div class="card">
+                        <div class="cardtext">Available Balance <svg class="infoicon" viewBox="0 0 16 16"
+                                class="bi bi-info-circle-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd"
+                                    d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412l-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM8 5.5a1 1 0 1 0 0-2 1 1 0 0 0 0 2z" />
+                            </svg></div>
+
+                        <h2 class="balanceamt">$30,000</h2>
+                        <div class="bottomtab trans">VIEW TRANSACTION SUMMARY <svg class="arrowicon" viewBox="0 0 16 16"
+                                class="bi bi-arrow-right" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd"
+                                    d="M10.146 4.646a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L12.793 8l-2.647-2.646a.5.5 0 0 1 0-.708z" />
+                                <path fill-rule="evenodd"
+                                    d="M2 8a.5.5 0 0 1 .5-.5H13a.5.5 0 0 1 0 1H2.5A.5.5 0 0 1 2 8z" />
+                            </svg></div>
+                    </div>
+                </div>
+
+                <div class="bigcard">
+                    <div class="head">
+                        <p>Grants (30)</p>
+                        <p>Contributions (90+)</p>
+                        <p>Exchanges (30)</p>
+                        <p>Other transactions (30)</p>
+                        <div class="bottomtab contri">VIEW CONTRIBUTION ACTIVITY <svg class="arrowicon"
+                                viewBox="0 0 16 16" class="bi bi-arrow-right" fill="currentColor"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd"
+                                    d="M10.146 4.646a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L12.793 8l-2.647-2.646a.5.5 0 0 1 0-.708z" />
+                                <path fill-rule="evenodd"
+                                    d="M2 8a.5.5 0 0 1 .5-.5H13a.5.5 0 0 1 0 1H2.5A.5.5 0 0 1 2 8z" />
+                            </svg></div>
+                    </div>
+
+                    <div class="scroll">
+                        <h2 class="gift">Gift ID: 4436109</h2>
+                        <p class="big-card-text uptop">Vanguard New Jersey Long-Term Tax-Exempt Fund Admiral Shares.</p>
+
+                        <div class="big-card-text">
+                            <div class="tabular">
+                                <h2>
+                                    Entered date
+                                </h2>
+                                <p class="bold">
+                                    10/4/2019
+                                </p>
+                            </div>
+                            <div class="tabular">
+                                <h2>
+                                    Received date
+                                </h2>
+                                <p class="bold">
+                                    10/4/2019
+                                </p>
+                            </div>
+                            <div class="tabular">
+                                <h2>
+                                    Number of shares
+                                </h2>
+                                <p class="bold">
+                                    50
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="big-card-text">
+                            <div class="tabular">
+                                <h2>
+                                    Type
+                                </h2>
+                                <p class="bold">
+                                    VBS Security
+                                </p>
+                            </div>
+                            <div class="tabular">
+                                <h2>
+                                    Amount
+                                </h2>
+                                <p class="bold">
+                                    $50,000.00
+                                </p>
+                            </div>
+                            <div class="tabular">
+                                <h2>
+                                    Status
+                                </h2>
+                                <p class="bold">
+                                    Entered
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="big-card-text">
+                            <div class="tabular">
+                                <h2>
+                                    Text
+                                </h2>
+                                <p class="bold">
+                                    To enable scroll
+                                </p>
+                            </div>
+                            <div class="tabular">
+                                <h2>
+                                    Text
+                                </h2>
+                                <p class="bold">
+                                    To enable scroll
+                                </p>
+                            </div>
+                            <div class="tabular">
+                                <h2>
+                                    Text
+                                </h2>
+                                <p class="bold">
+                                    To enable scroll
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="big-card-text">
+                            <div class="tabular">
+                                <h2>
+                                    Text
+                                </h2>
+                                <p class="bold">
+                                    To enable scroll
+                                </p>
+                            </div>
+                            <div class="tabular">
+                                <h2>
+                                    Text
+                                </h2>
+                                <p class="bold">
+                                    To enable scroll
+                                </p>
+                            </div>
+                            <div class="tabular">
+                                <h2>
+                                    Text
+                                </h2>
+                                <p class="bold">
+                                    To enable scroll
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="tworectangle">
+                <button class="rectbutton" type="button" onclick="alert('Hello world!')">Contribute   <svg
+                        class="arrowicon white" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="currentColor"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd"
+                            d="M10.146 4.646a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L12.793 8l-2.647-2.646a.5.5 0 0 1 0-.708z" />
+                        <path fill-rule="evenodd" d="M2 8a.5.5 0 0 1 .5-.5H13a.5.5 0 0 1 0 1H2.5A.5.5 0 0 1 2 8z" />
+                    </svg></button>
+                <button class="rectbutton" type="button" onclick="alert('Hello world!')">Grant   <svg
+                        class="arrowicon white" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="currentColor"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd"
+                            d="M10.146 4.646a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L12.793 8l-2.647-2.646a.5.5 0 0 1 0-.708z" />
+                        <path fill-rule="evenodd" d="M2 8a.5.5 0 0 1 .5-.5H13a.5.5 0 0 1 0 1H2.5A.5.5 0 0 1 2 8z" />
+                    </svg></button>
+                <button class="rectbutton" type="button" onclick="alert('Hello world!')">Exchange   <svg
+                        class="arrowicon white" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="currentColor"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd"
+                            d="M10.146 4.646a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L12.793 8l-2.647-2.646a.5.5 0 0 1 0-.708z" />
+                        <path fill-rule="evenodd" d="M2 8a.5.5 0 0 1 .5-.5H13a.5.5 0 0 1 0 1H2.5A.5.5 0 0 1 2 8z" />
+                    </svg></button>
+                <button class="rectbutton" type="button" onclick="alert('Hello world!')">Manage your account   <svg
+                        class="arrowicon white" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="currentColor"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd"
+                            d="M10.146 4.646a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L12.793 8l-2.647-2.646a.5.5 0 0 1 0-.708z" />
+                        <path fill-rule="evenodd" d="M2 8a.5.5 0 0 1 .5-.5H13a.5.5 0 0 1 0 1H2.5A.5.5 0 0 1 2 8z" />
+                    </svg></button>
+            </div>
+
+            <div class="threerectangle">             
+                <div class="featured">
+                    <div>
+                    <button class="left arrow" onclick="alert('Hello world!')"><svg viewBox="0 0 16 16"
+                        class="bi bi-arrow-left-circle arrowicon" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd"
+                            d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                        <path fill-rule="evenodd"
+                            d="M8.354 11.354a.5.5 0 0 0 0-.708L5.707 8l2.647-2.646a.5.5 0 1 0-.708-.708l-3 3a.5.5 0 0 0 0 .708l3 3a.5.5 0 0 0 .708 0z" />
+                        <path fill-rule="evenodd" d="M11.5 8a.5.5 0 0 0-.5-.5H6a.5.5 0 0 0 0 1h5a.5.5 0 0 0 .5-.5z" />
+                    </svg></button></div>
+                    <div class = "topic-slide">
+                    <h6 class="Masktext">Featured</h6>
+                    <h2 class="Moretext">Learn how to value your contributions</h2>
+                </div>
+ 
+                </div>
+
+                <div class="loremtext">
+                    <div>
+                    <p class="Masktext">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud dolore magna
+                        ali.</p>
+                    <div class="bottomtab">LEARN MORE<svg viewBox="0 0 16 16"
+                            class="bi bi-arrow-right arrowicon" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd"
+                                d="M10.146 4.646a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L12.793 8l-2.647-2.646a.5.5 0 0 1 0-.708z" />
+                            <path fill-rule="evenodd" d="M2 8a.5.5 0 0 1 .5-.5H13a.5.5 0 0 1 0 1H2.5A.5.5 0 0 1 2 8z" />
+                        </svg></div>
+                    </div>
+                    <div>
+                        <button class="right arrow" onclick="alert('Hello world!')"><svg viewBox="0 0 16 16"
+                            class="bi bi-arrow-right-circle arrowicon" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd"
+                                d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                            <path fill-rule="evenodd"
+                                d="M7.646 11.354a.5.5 0 0 1 0-.708L10.293 8 7.646 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0z" />
+                            <path fill-rule="evenodd" d="M4.5 8a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1H5a.5.5 0 0 1-.5-.5z" />
+                        </svg></button> 
+                    </div>            
+            </div>
+            <img src="vc-logo-cmyk-leaf-01_2020-07-16/vc-logo-cmyk-leaf-01.jpg" class="VC_logo_CMYK_Leaf-01">
+            </div>
+        </div>
+    </main>
+
+    <footer>
+
+        <div class = "footer-logo-div">
+            <img src="vcep-logo_2020-07-17/vcep-logo.png"
+     class="vcep_footer_logo">
+     <p class = "footer-logo-text">© 2018 Vanguard Charitable Endowment Program</p>
+        </div>
+
+        <div class = "footer-text-div">
+            <div>
+                <h2 class = "footer-text"> ABOUT US </h2>
+                <h2 class = "footer-text"> CAREER OPPURTUNITIES </h2>
+                <h2 class = "footer-text"> LEGAL DISCLOSURE </h2>
+                <h2 class = "footer-text"> POLICIES AND GUIDELINES </h2>
+                <h2 class = "footer-text"> USER AGREEMENT </h2>
+            </div>
+
+            <div>
+                <h2 class = "footer-text"> CONTACT US </h2>
+                <h2 class = "footer-text"> FORUMS </h2>
+                <h2 class = "footer-text"> PRIVACY POLICY </h2>
+                <h2 class = "footer-text"> TERMS & CONDITIONS </h2>
+                <h2 class = "footer-text"> COMPANY POLICIES </h2>
+            </div>
+        </div>
+        <img src="vc-logo-cmyk-leaf-01_2020-07-17/vc-logo-cmyk-leaf-01.png"
+     srcset="img/vc-logo-cmyk-leaf-01@2x.png 2x,
+             img/vc-logo-cmyk-leaf-01@3x.png 3x"
+     class="VC_logo_CMYK_Leaf-02">
+    </footer>
+
+
+</body>
+
+</html>

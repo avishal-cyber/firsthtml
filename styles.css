@@ -1,0 +1,584 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+.max-width-container{
+    max-width: 1160px;
+    width:1160px;
+    margin:0 auto;
+}
+
+
+header {
+    background-color: #022737;
+    top: 0;
+    font-family: HelveticaNeue;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    color: #ffffff;
+    z-index: 11;
+    position: sticky;
+}
+
+.left-wrapper {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+}
+
+.right-wrapper {
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+
+
+.headerdiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+
+  header svg {
+    width: 20.2px;
+    height: 14.9px;
+    color: #ffffff; 
+  }
+
+
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dropdownarr {
+    width: 20px;
+    height: 13px;
+    border-radius: 0.7px;
+    color: #ffffff;
+}
+
+.dropbtn {
+    background-color:white;
+    font-family: HelveticaNeue;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.5px;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    width: 260px;
+    height: 21px;
+    border-radius: 10.5px;
+    border: solid 0.7px #ffffff;
+    background: transparent;
+    z-index: 14;
+    text-align: center;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    z-index: 14;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #022737;
+    color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 14;
+  }
+  
+  .dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    z-index: 14;
+  }
+  
+.dadropbtn {
+    background: transparent;
+    border: none;
+}
+
+  .dropdown-content a:hover {background-color: white; color: #022737;}
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+nav {
+    border: solid 1px #b6bdbd;
+    top: 40px;
+    background-color: white;
+    z-index: 10;
+    position: sticky;
+}
+
+#navdiv {
+    width: 1440px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .logo {
+    width: 143px;
+    height: 60px;
+    object-fit: contain;
+  }
+
+  nav p {
+    font-family: HelveticaNeue;
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: condensed;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.5px;
+    color: #006778;
+  }
+
+  #navcontent {
+      width: 678px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+
+
+
+
+#Home-Account-overv {
+    font-family: HelveticaNeue;
+    font-size: 14px;
+    color: #505050;
+    padding: 50px 0px;
+  }
+
+  #Account-Overview {
+    font-family: BerkeleyStd;
+    font-size: 42px;
+    font-weight: bold;
+    color: #022737;
+  }
+
+  #John-Carson-Eco-Fund {
+    font-family: HelveticaNeue;
+    font-size: 16px;
+    color: #505050;
+    padding: 10px 0px
+  }
+
+.alerting {
+    width: 1159px;
+    height: 47px;
+    background-color: #f2f2f2;
+    display: flex;
+    align-items: center;
+    position: relative;
+    border: #e37222;
+    border-style: none none none solid;
+    border-width: 6px;
+    padding-left: 18px;
+    margin: 30px 0px;
+}
+section svg {
+    width: 20px;
+    height: 18px;
+    color: #e37222;
+}
+
+#alerttext {
+    width: 392px;
+    height: 15px;
+    padding-left: 12px;
+    font-family: HelveticaNeue;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.13px;
+    color: #505050;
+}
+
+section button {
+    position: absolute;
+    right: 18px;
+}
+
+
+main {
+    height: 788px;
+    background-color: #eaeaea;
+    padding: 50px 0px;
+}
+
+
+.onerectangle {
+    background-color: #eaeaea;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tworectangle {
+    background-color: #eaeaea; 
+    padding: 40px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.threerectangle {
+    background-color: white;
+    padding: 25px 20px;
+    height: 172px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card {
+  width: 373px;
+  height: 172px;
+  box-shadow: 0 9px 21px 0 rgba(128, 152, 213, 0.08);
+  background-color: #ffffff;
+  padding: 26px 49px;
+}
+
+.topone {
+    margin-bottom: 20px;
+}
+
+.bigcard {
+  width: 766px;
+  height: 364px;
+  box-shadow: 0 9px 21px 0 rgba(128, 152, 213, 0.08);
+  background-color: #ffffff;
+  position: relative;
+}
+
+
+.uptop {
+    padding-bottom: 25px;
+}
+
+.infoicon {
+    width: 12px;
+    height: 12px;
+    object-fit: contain;
+    color: #9b9b9b;
+}
+
+.cardtext {
+    font-family: BerkeleyStd;
+    font-size: 18px;
+    font-weight: 500;
+    color: #505050;
+    margin;
+}
+
+.balanceamt {
+    font-family: HelveticaNeue;
+    font-size: 42px;
+    font-weight: 300;
+    color: #a8b400;
+
+}
+
+.bottomtab {
+  height: 30px;
+  font-family: HelveticaNeue;
+  font-size: 16px;
+  font-weight: 900;
+  font-stretch: condensed;
+  font-style: normal;
+  line-height: 1.88;
+  letter-spacing: 1px;
+  color: #006778;
+  padding-top: 17px;
+}
+
+.trans {
+  position: absolute;
+  bottom: 29px;
+  left: 47px;
+}
+
+.head {
+  border: solid 1px #d9d9d9;
+  height: 55px;
+  font-family: HelveticaNeue;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-weight: bold;
+  color: #505050;
+}
+
+
+.rectbutton {
+  width: 273px;
+  height: 72px;
+  background-color: #006778;
+  font-family: HelveticaNeue;
+  font-size: 18px;
+  font-weight: 900;
+  font-stretch: condensed;
+  color: #ffffff;
+}
+
+.contri {
+    position: absolute;
+    bottom: 33px;
+    left: 32px;
+    border: #eaeaea;
+    border-style: solid none none none;
+    width: 706px;
+  }
+
+.white {
+    color: white;
+}
+
+.Masktext {
+  font-family: HelveticaNeue;
+  font-size: 16px;
+  color: #505050;
+  align-self: flex-start;
+}
+
+.Moretext {
+  font-family: BerkeleyStd;
+  font-size: 24px;
+  font-weight: 500;
+  color: #022737;
+  padding-top: 6px;
+  align-self: start;
+}
+
+.flexingrect {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.featured {
+    padding: 3px 72px;
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.loremtext {
+    width: 700px;
+    padding-right: 59px;
+    z-index: 2;
+    align-self: flex-end;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.arrow {  
+    border: none;
+    align-self: center;
+    background: transparent;
+    color: #727272;
+    z-index: 3;
+    position: absolute;
+    top: 69px;
+    bottom: 76px;
+    
+}
+
+.arrowicon {
+    width: 27px;
+    height: 23px;
+}
+
+.right {
+    right: 40px
+}
+
+.left {
+   left: 40px
+}
+
+
+.VC_logo_CMYK_Leaf-01 {
+    width: 163px;
+    height: 172px;
+    object-fit: contain;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+.scroll {
+    overflow: auto;
+    margin: 29px;
+    height: 200px;
+}
+
+.gift {
+  height: 20px;
+  font-family: BerkeleyStd;
+  font-size: 20px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.71px;
+  color: #006778;
+  padding-bottom: 5px;
+  text-decoration: underline;
+}
+
+.big-card-text {
+    font-family: HelveticaNeue;
+    font-size: 16px;
+    color: #505050;
+    padding-top: 10px;
+    width: 550px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tabular {
+    height: 50px;
+    width: 140px;
+    justify-content: space-evenly;
+}
+
+.bold {
+font-weight: bold;
+}
+
+footer {
+  background-color: #022737;
+  padding: 28px 137px;
+  display: flex;
+  position: relative;
+}
+
+.vcep_footer_logo {
+  width: 173px;
+  height: 70px;
+  object-fit: contain;
+  margin: 34px 0px;
+}
+
+.footer-logo-text {
+  font-family: HelveticaNeue;
+  font-size: 12px;
+  color: #ffffff;
+}
+
+.footer-logo-div {
+  width: 396px;
+}
+
+.footer-text {
+  font-family: HelveticaNeue;
+  font-size: 10px;
+  color: #fff;
+  padding: 12.5px 54.5px;
+}
+
+.footer-text-div {
+  display: flex;
+}
+
+
+.VC_logo_CMYK_Leaf-02 {
+  object-fit: contain;
+  color: #3b5d6c;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
